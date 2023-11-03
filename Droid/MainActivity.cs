@@ -32,7 +32,7 @@ namespace WikitruthNative.Droid
 			webView.Settings.JavaScriptEnabled = true;
 			webView.SetWebViewClient(new WebViewClient());
 			webView.SetWebChromeClient(new WebChromeClient());
-			webView.LoadUrl("https://wikitruth.co");
+			webView.LoadUrl("https://wikitruth.net");
 		}
 
 		public override void OnBackPressed()
